@@ -39,7 +39,7 @@ fun main() {
 
     println("$num1 + $num2 = ${num1 + num2}")
     println("$num1 - $num2 = ${num1 - num2}")
-    println("$num1 * $num2 = ${num1 * num2}");
+    println("$num1 * $num2 = ${num1 * num2}")
 
 }
     
