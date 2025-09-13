@@ -8,5 +8,15 @@ fun main() {
     var fav_l = 'Z';
 
     println("$fav_game , $fav_d , $PI, $fav_l");
+
+    // Task 2
+    // val test1 = "hello
+    // println(test1
+
+    val test1 = "hello";
+    println(test1);
+    val test2 = 5;
+    println(test2);
+    println();
 }
     
