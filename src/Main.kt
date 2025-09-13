@@ -50,5 +50,17 @@ fun main() {
     val sum = digit1 + digit2 + digit3
     println("$digit1 + $digit2 + $digit3 = $sum")
 
+    //Task 7
+    print("Введите разделитель: ")
+    val separator = readln()
+    print("Введите первую строку: ")
+    val string1 = readln()
+    print("Введите вторую строку: ")
+    val string2 = readln()
+    print("Введите третью строку: ")
+    val string3 = readln()
+
+    println("$string1$separator$string2$separator$string3")
+
 }
     
