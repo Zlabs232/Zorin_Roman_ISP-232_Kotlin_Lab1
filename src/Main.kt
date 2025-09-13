@@ -68,5 +68,14 @@ fun main() {
     println(startNumber)
     println(startNumber + 1)
     println(startNumber + 2)
+
+    //Task 9
+    print("Введите трехзначное число: ")
+    val originalNumber = readln().toInt()
+    val hundreds = originalNumber / 100
+    val tens = (originalNumber % 100) / 10
+    val units = originalNumber % 10
+    val reversedNumber = units * 100 + tens * 10 + hundreds
+    println("Перевернутое число: $reversedNumber")
 }
     
