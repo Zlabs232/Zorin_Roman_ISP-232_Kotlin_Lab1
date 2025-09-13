@@ -22,5 +22,14 @@ fun main() {
     val pi = 3.14
     val radius = 5
     println("Площадь круга: ${pi * radius * radius.toDouble()}") // Результат некорректный из-за несовпадения типов
+
+    //Task 4
+    print("Введите ваше имя: ")
+    val name = readln()
+    print("Введите ваш год рождения: ")
+    val birthYear = readln().toInt()
+    val age = 2025 - birthYear
+    println("$name, вам $age лет")
+
 }
     
