@@ -17,6 +17,10 @@ fun main() {
     println(test1);
     val test2 = 5;
     println(test2);
-    println();
+
+    //Task 3
+    val pi = 3.14
+    val radius = 5
+    println("Площадь круга: ${pi * radius * radius.toDouble()}") // Результат некорректный из-за несовпадения типов
 }
     
