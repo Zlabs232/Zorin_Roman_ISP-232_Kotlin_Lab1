@@ -77,5 +77,12 @@ fun main() {
     val units = originalNumber % 10
     val reversedNumber = units * 100 + tens * 10 + hundreds
     println("Перевернутое число: $reversedNumber")
+
+
+    //Task 10
+    print("Введите натуральное число: ")
+    val inputNumber = readln().toInt()
+    val hundredsCount = (inputNumber / 100) % 10
+    println("Число сотен: $hundredsCount")
 }
     
