@@ -62,5 +62,11 @@ fun main() {
 
     println("$string1$separator$string2$separator$string3")
 
+    //Task 8
+    print("Введите число: ")
+    val startNumber = readln().toInt()
+    println(startNumber)
+    println(startNumber + 1)
+    println(startNumber + 2)
 }
     
