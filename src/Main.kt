@@ -31,5 +31,15 @@ fun main() {
     val age = 2025 - birthYear
     println("$name, вам $age лет")
 
+    //Task 5
+    print("Введите первое число: ")
+    val num1 = readln().toDouble()
+    print("Введите второе число: ")
+    val num2 = readln().toDouble()
+
+    println("$num1 + $num2 = ${num1 + num2}")
+    println("$num1 - $num2 = ${num1 - num2}")
+    println("$num1 * $num2 = ${num1 * num2}")
+
 }
     
